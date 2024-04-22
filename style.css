@@ -1,0 +1,50 @@
+.header {
+    padding: 10px 20px;
+    width: 150px;
+    height: 70px;
+    background-color: #3F51B5; /* Changed color */
+}
+
+.border {
+    padding: 40px 20px;
+    width: 400px;
+    height: 450px;
+    border: 2px solid #3F51B5; /* Changed color */
+    border-radius: 10px;
+    background-color: #9C27B0; /* Changed color */
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #3F51B5; /* Changed color */
+    color: #FFFFFF;
+    font-style: italic;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.textbox {
+    padding: 10px 20px;
+    background-color: #3F51B5; 
+    caret-color: #FFFFFF;
+    border-radius: 10px;
+}
+
+::placeholder {
+    color: #FFFFFF;
+    opacity: 0.8;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.word {
+    color: #FFFFFF;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.bottom {
+    color: #3F51B5; 
+    font-style: italic;
+    font-weight: bold;
+}

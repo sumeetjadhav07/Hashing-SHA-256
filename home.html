@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <title>DOMINO's.in
+        </title>
+        <body>
+            <div style="padding-left: 50px; padding-right: 50px;padding-bottom: 10; display: flex; justify-content: centre; box-shadow: 0.05px 0.4px 0.05px;">
+                <img src="{{ url_for('static', filename='logo.png') }}" width="150">
+                <div style="display: flex; font-size: 15 ;">
+                    <div style="padding: 20;cursor: pointer; ">
+                        <a>HOME</a>
+                    </div>
+                    <div style="padding: 20;cursor: pointer;">
+                        <a>ABOUT US</a>
+                    </div>
+                    <div style="padding: 20;cursor: pointer;">
+                        <a>GALLERY</a>
+                    </div>
+                    <div style="padding: 20;cursor: pointer;">
+                        <a href="{{ url_for('login') }}">LOGIN</a>
+                    </div>
+                </div>
+            </div> 
+            <br>
+            <div>
+                <img src="{{ url_for('static', filename='home.png') }}" width="1500", height="800" >
+                <div style="flex:content;margin-left: 100px;margin-top: 50px; ">
+                    <div style="justify-content:center;padding-left:400;">
+                        <h1>Domino's Pizza: Delivering Happiness</h1>
+                    </div>
+                    <h3>What’s better than having a crispy melty pizza, you ask?
+
+                        Having that crispy and melty pizza in the comfort of your own home with the ones you love, we say.
+                        
+                        With Domino's it is always “Rishton ka time”. Whether it's a treat for your promotion, a kid topping his class or winning the heart of your wife who is too tired to cook after a long day at work! A cheesy slice of the best pizza is all one needs to put things into perspective and start any celebration. Plus, you do not even need to rush to the restaurant to have one now. A call, a few clicks on our website or a few touches on the mobile screen is all you have to do to have that tempting, light-on-the-pocket pizza at your doorstep.
+                        
+                        There is something for everyone here. The vegetarians, non-vegetarians, the sides’ lovers and also the ones who love to have something sweet by the time they reach the last bite of the last slice of pizza slice.</h3>
+                    
+                    <div style="padding-top: 20px; padding-left: 20;">
+                    <button style=" background: linear-gradient(to left, #17a0e0, #009769);
+                    box-shadow: 0px 5px 15px rgba(0,151,105,0.4);
+                    color: #fff;
+                    font-size: 1.125rem;
+                    font-weight: bold;
+                    padding: 15px 20px;margin-bottom: 50px;cursor: pointer;">READ MORE</button>
+                </div>
+                
+                </div>
+            </div>
+
+               
+        </body>
+    </head>
+</html>
